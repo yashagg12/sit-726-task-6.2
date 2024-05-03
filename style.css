@@ -1,0 +1,368 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family:'Montserrat', sans-serif;;
+}
+.container1{
+    background-image: url('1.avif');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+    /* border: solid red 2px; */
+    position: relative;
+}
+/* .container1::before{
+    content: "";
+    background: grey;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+} */
+.container1 div{
+    font-size: 1rem;
+    color:black;
+}
+.container1 div:nth-child(1){
+    padding: 30px;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container1 div:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 2.4rem;
+    background-color: gray;
+    color: aliceblue;
+    padding: 5px 0;
+    /* border: solid red 2px; */
+}
+.container1 div:last-child span{
+    color: black;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    /* height: 50vh; */
+    justify-content: center;
+    margin: 5vh 2vw;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px gray solid;
+    margin: 5vh 3vw;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    background-color: rgb(60 89 131);
+}
+.flex img{
+    height: 30px;
+}
+.flex-1{
+    font-size: 20px;
+    padding: 2vh 1vw;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.flex-2{
+    text-align: center;
+    padding: 2vh 2vw;
+}
+.container3{
+    background-image: url('2.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    /* border: solid 2px red; */
+    /* text-align: center; */
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+.container3 div:nth-child(1){
+    position: absolute;
+    top: 7vh;
+    /* border: solid brown 2px; */
+     left: 2vw;
+    font-size: 2.5rem; 
+    /* text-align: center; */
+}
+.container3 div:nth-child(2){
+    position: absolute;
+    bottom: 4vh;
+    right:0.5vw;
+    width:50vw;
+    font-size: 1.8rem;
+}
+.container3 div span{
+    color: aliceblue;
+    font-size: 3.5rem; ;
+}
+.container4{
+    margin: 15vh 15vw;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 48vh 48vh;
+    grid-template-columns: 35vw 35vw;
+    justify-content: center;
+    /* border: red solid 2px; */
+}
+.container4 div{
+    background-color: aliceblue;
+    text-align: left;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.5vw;
+    position: relative;
+}
+.container4 div:nth-child(2){
+    background-image: url('https://rukminim1.flixcart.com/image/832/832/kzpw2vk0/shoe/x/y/n/9-571-dadk-t-rock-white-black-original-imagbnqbkf62uxvd.jpeg?q=70');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container4 div:nth-child(3){
+    background-image: url('https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/w/u/l/3-774-womn-3-deals4you-blue-original-imagcgjthnf5z44y-bb.jpeg?q=70');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container4 div span{
+    position: absolute;
+    /* border: #5c5c3d solid 2px; */
+    right: 0;
+    margin: 30px;
+    
+}
+.container4 div span a{
+    text-decoration: none;
+    color: #5c5c3d;
+    border: #5c5c3d solid 2px;
+    padding: 5px 10px;
+}
+.container4 div span a:hover{
+    color: aliceblue;
+    background-color: #5c5c3d;
+}
+.ye{
+    text-align: center;
+    font-size: 3vw;
+}
+.container5{
+    display: grid;
+    margin: 15vh 15vw;
+    grid-template-rows: 70vh 48vh 48vh ;
+    justify-content: center;
+    /* text-align: center; */
+    grid-template-columns: 35vw 35vw;
+}
+.container5 div{
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    padding: 1vh 1vw;
+    font-size: 1.5vw;
+    position: relative;
+}
+.container5 div:nth-child(1){
+    background-image: url('3.jpeg');
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+    position: relative; 
+    /* justify-items: center; */
+    grid-column: 1/ span 2;
+    background-size: 100% 100%;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.container5 div:nth-child(1) span{
+    border: #5c5c3d 2px solid;
+    /* background-color:#5c5c3d; */
+    padding: 10px 30px;
+    position: absolute;
+    text-align: center;
+    bottom: 3rem;
+    left: 9rem;
+}
+/* .container5 div span a{
+    text-decoration: none;
+    color: #5c5c3d;
+}
+.container5 div:nth-child(1) span a:hover{
+    color: aliceblue;
+}
+.container5 div:nth-child(1) span:hover{
+    background-color: #5c5c3d;
+    color: aliceblue;
+
+}
+.container5 div:nth-child(2){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+.dark{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #5c5c3d;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container5 div:nth-child(5){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container5 div:nth-child(3){
+    background-image: url('1.jfif');
+    /* background-image: url('images.jfif'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container5 div:nth-child(4){
+    background-image: url('2.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container6{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 48vh;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 10vw;   
+}
+.container6 div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    padding: 0 10px;
+}
+.container6 div:nth-child(1){
+    background-color: pink;
+}
+.container6 div:nth-child(2){
+    background-color: rgb(99, 99, 222);
+}
+.container6 div i{
+    color: rgb(223, 200, 71);
+    padding-top: 10px;
+}
+.container6 div span{
+    /* font-weight: bold; */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.container7{
+    text-align: center;
+}
+.container7 span{
+    color: #5c5c3d;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .container2 {
+        flex-direction: column; 
+    }
+
+    .container1 div:nth-child(1){
+        font-size: 3.2rem;
+    }
+    .container1{
+    background-image: url('sneakers.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    }
+    .container1 div{
+        font-size: 2rem;
+    }
+    .container1 div:last-child{
+        font-size: 1.5rem;
+    }
+    .flex{
+        max-width: 350px;
+    }
+
+    .container3 div:nth-child(1){
+        font-size: 1.4rem;
+        font-weight: bold;
+        max-width :179px; ;
+    }
+
+    .container3 div:nth-child(2){
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .container3 div span{
+        font-size: 1.6rem;
+
+    }
+
+    .container4{
+        /* margin: 5vh; */
+        /* text-decoration: none; */
+        grid-template-rows: 23vh 23vh;
+        margin: 6vh 15vw;
+        grid-template-columns: 45vw 45vw;
+        padding: 0;
+    }
+    .container4 div {
+        font-size: 0.45rem;
+    }
+    .container5{
+        grid-template-rows: 23vh 23vh 23vh;
+        margin: 6vh 15vw;
+        grid-template-columns: 45vw 45vw ;
+        padding: 0;
+    }
+    .container5 div:nth-child(1) span{
+        bottom: 0.6rem;
+        left: 3rem;
+    }
+    .dark{
+        font-size: 1rem;
+    }
+    .container5 div:nth-child(1){
+        padding-top: 5px;
+        font-size: .8rem;
+    }
+    .container6{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .container1{
+        background-image: url('sneakers-bg.png');
+    }
+}
