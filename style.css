@@ -162,22 +162,22 @@ html{
     text-align: center;
     font-size: 3vw;
 }
-.container5{
+/* .container5{
     display: grid;
     margin: 15vh 15vw;
     grid-template-rows: 70vh 48vh 48vh ;
     justify-content: center;
     /* text-align: center; */
-    grid-template-columns: 35vw 35vw;
-}
-.container5 div{
+    /* grid-template-columns: 35vw 35vw;
+} */
+/* .container5 div{
     background-color: aliceblue;
     text-align: center;
     justify-content: center;
     padding: 1vh 1vw;
     font-size: 1.5vw;
     position: relative;
-}
+} */
 .container5 div:nth-child(1){
     background-image: url('3.jpeg');
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ html{
     font-size: 2rem;
     font-weight: bolder;
 }
-.container5 div:nth-child(1) span{
+/* .container5 div:nth-child(1) span{
     border: #5c5c3d 2px solid;
     /* background-color:#5c5c3d; */
     padding: 10px 30px;
@@ -199,7 +199,7 @@ html{
     text-align: center;
     bottom: 3rem;
     left: 9rem;
-}
+}  */
 /* .container5 div span a{
     text-decoration: none;
     color: #5c5c3d;
